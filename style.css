@@ -1,0 +1,8 @@
+h1 {font-size:50px; text-align:center; border-bottom:2px black solid; padding:10px; margin:0px;}
+ol {font-size:20px; border-right:2px solid black; width:80px; padding:30px; padding-left:40px; margin:0px; }
+li {margin-bottom:15px;}
+body {margin:0px;}
+a {text-decoration:none; color:black;}
+.wind {padding-left:420px;}
+#grid {display:grid; grid-template-columns:190px 1fr;}
+@media (max-width:800px) {h1 {border-bottom:none;} #sky {padding-left:20px;} #lake {padding-left:20px;} .wind {padding-left:20px;} ol {border-right:none;} #grid {display:block;}}
